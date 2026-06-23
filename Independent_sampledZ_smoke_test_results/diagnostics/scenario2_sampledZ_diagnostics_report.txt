@@ -1,0 +1,47 @@
+Scenario 2: Independent structure with sampled Z
+Direct data: F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\direct_dataset_simulated.csv
+Collateral data: F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\collateral_dataset_simulated.csv
+Output directory: F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_smoke_test_results
+Primary shape: (1200, 3)
+Collateral shape: (1200, 3)
+Original missing primary entries: 1284
+Validation holdout entries: 463
+sigma_y used: 1.6975639410640113
+sigma_c used: 1.5025826096578878
+sigma_y tuning grid: [1.6975639410640113]
+sigma_c tuning grid: [1.0185383646384067]
+Validation seeds: [2026]
+Best Bayesian model by mean multi-seed RMSE: Ind_SampledZ_Beta1_1_muSD5_HC1p0_sigY1p7_sigC1p02
+
+Multi-seed validation summary across all methods
+================================================
+                   Method_Type                                             Model   Z_prior  a_z  b_z  mu_prior_sd  tau_halfcauchy_scale  sigma_y_used  sigma_c_used  Validation_Splits  Mean_RMSE  SD_RMSE  Minimum_RMSE  Maximum_RMSE  Mean_Bias  Mean_Coverage
+             Comparison method                   MICE-style iterative regression       NaN  NaN  NaN          NaN                   NaN           NaN           NaN                  1   1.681353      NaN      1.681353      1.681353  -0.058638            NaN
+             Comparison method                              Gaussian NB baseline       NaN  NaN  NaN          NaN                   NaN           NaN           NaN                  1   1.714547      NaN      1.714547      1.714547   0.013585            NaN
+             Comparison method                                        Naive mean       NaN  NaN  NaN          NaN                   NaN           NaN           NaN                  1   1.749896      NaN      1.749896      1.749896   0.080302            NaN
+Bayesian independent sampled Z Ind_SampledZ_Beta1_1_muSD5_HC1p0_sigY1p7_sigC1p02 Beta(1,1)  1.0  1.0          5.0                   1.0      1.697564      1.018538                  1   1.876518      NaN      1.876518      1.876518   0.068999       0.796976
+
+Multi-seed Bayesian validation results
+======================================
+ Validation_Seed                    Method_Type                                             Model   Z_prior  a_z  b_z  mu_prior_sd  tau_halfcauchy_scale  sigma_y_used  sigma_c_used   Z_mean  Rhat_mu  Rhat_tau  Rhat_Z_mean  tau_accept_rate  z_accept_rate  Validation_RMSE  Validation_Bias  Validation_SE  Validation_Coverage
+            2026 Bayesian independent sampled Z Ind_SampledZ_Beta1_1_muSD5_HC1p0_sigY1p7_sigC1p02 Beta(1,1)  1.0  1.0          5.0                   1.0      1.697564      1.018538 0.937091      NaN       NaN          NaN              0.5       0.133333         1.876518         0.068999       1.877277             0.796976
+
+All sampled-Z Bayesian model results
+====================================
+                                            Model   Z_prior  a_z  b_z  mu_prior_sd  tau_halfcauchy_scale  sigma_y_used  sigma_c_used  mu_mean    mu_sd  mu_2.5%  mu_97.5%  tau_mean  tau_sd  tau_2.5%  tau_97.5%   Z_mean     Z_sd   Z_2.5%  Z_97.5%  Rhat_mu  Rhat_tau  Rhat_Z_mean  tau_accept_rate  z_accept_rate  Validation_RMSE  Validation_Bias  Validation_SE  Validation_Coverage
+Ind_SampledZ_Beta1_1_muSD5_HC1p0_sigY1p7_sigC1p02 Beta(1,1)  1.0  1.0          5.0                   1.0      1.697564      1.018538 0.364998 0.019863 0.337865   0.39311  0.635901     0.0  0.635901   0.635901 0.955621 0.003426 0.950656 0.957748      NaN       NaN          NaN              0.2           0.15         1.903745         0.069304       1.904541             0.814255
+
+Evaluation metrics comparison
+=============================
+ Rank_by_RMSE                                             Model   Z_prior  a_z  b_z  mu_prior_sd  tau_halfcauchy_scale  sigma_y_used  sigma_c_used  Validation_RMSE  Validation_Bias  Validation_SE  Validation_Coverage  Rhat_mu  Rhat_tau  Rhat_Z_mean  tau_accept_rate  z_accept_rate   Z_mean                    Method_Type
+            1                   MICE-style iterative regression       NaN  NaN  NaN          NaN                   NaN           NaN           NaN         1.681353        -0.058638       1.682148                  NaN      NaN       NaN          NaN              NaN            NaN      NaN              Comparison method
+            2                              Gaussian NB baseline       NaN  NaN  NaN          NaN                   NaN           NaN           NaN         1.714547         0.013585       1.716348                  NaN      NaN       NaN          NaN              NaN            NaN      NaN              Comparison method
+            3                                        Naive mean       NaN  NaN  NaN          NaN                   NaN           NaN           NaN         1.749896         0.080302       1.749944                  NaN      NaN       NaN          NaN              NaN            NaN      NaN              Comparison method
+            4 Ind_SampledZ_Beta1_1_muSD5_HC1p0_sigY1p7_sigC1p02 Beta(1,1)  1.0  1.0          5.0                   1.0      1.697564      1.018538         1.903745         0.069304       1.904541             0.814255      NaN       NaN          NaN              0.2           0.15 0.955621 Bayesian independent sampled Z
+
+Baseline method results
+=======================
+                         Method     RMSE      Bias       SE  Coverage
+                     Naive mean 1.749896  0.080302 1.749944       NaN
+MICE-style iterative regression 1.681353 -0.058638 1.682148       NaN
+           Gaussian NB baseline 1.714547  0.013585 1.716348       NaN

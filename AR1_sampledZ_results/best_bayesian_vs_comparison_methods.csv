@@ -1,0 +1,5 @@
+Comparison_Rank_by_RMSE,Rank_by_RMSE,Model,Z_prior,mu_prior_sd,tau_halfcauchy_scale,Z_mean,sigma_y_used,sigma_c_used,Validation_RMSE,Validation_Bias,Validation_SE,Validation_Coverage,Rhat_mu,Rhat_tau,Rhat_phi,Rhat_Z_mean,tau_accept_rate,phi_accept_rate,z_accept_rate,Method_Type
+1,1,AR1_SampledZ_Beta1_1_muSD10_HC2p5_sigY1p36_sigC1p36,"Beta(1,1)",10.0,2.5,0.9976570217298922,1.3580511528512091,1.3580511528512091,1.6365263594102242,0.05233122832830708,1.63745871696573,0.9481641468682506,1.0063056922750064,1.010643367496224,1.0049935396523588,2.1998798519434564,0.20600000000000002,0.788,0.007,Bayesian AR(1) sampled Z
+2,45,MICE-style iterative regression,,,,,,,1.681353368294812,-0.0586376178746888,1.6821481129908267,,,,,,,,,Comparison method
+3,86,Gaussian NB baseline,,,,,,,1.7145470924005723,0.013584667223946972,1.71634778388837,,,,,,,,,Comparison method
+4,151,Naive mean,,,,,,,1.7498964502585075,0.0803020635253511,1.749943773677618,,,,,,,,,Comparison method

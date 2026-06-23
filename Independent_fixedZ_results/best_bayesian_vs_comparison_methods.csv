@@ -1,0 +1,5 @@
+Comparison_Rank_by_RMSE,Rank_by_RMSE,Model,Z,mu_prior_sd,tau_halfcauchy_scale,sigma_y_used,sigma_c_used,Validation_RMSE,Validation_Bias,Validation_SE,Validation_Coverage,Rhat_mu,Rhat_tau,tau_accept_rate,Method_Type
+1,1,MICE-style iterative regression,,,,,,1.681353368294812,-0.0586376178746888,1.6821481129908267,,,,,Comparison method
+2,2,Gaussian Naive Bayes,,,,,,1.7145470924005723,0.013584667223946972,1.71634778388837,,,,,Comparison method
+3,3,Naive mean,,,,,,1.7498964502585075,0.0803020635253511,1.749943773677618,,,,,Comparison method
+4,4,Ind_FixedZ0p9_muSD10_HC1p0_sigY1p7_sigC1p02,0.9,10.0,1.0,1.6975639410640113,1.0185383646384067,1.7715946783558068,-0.08000261083463985,1.7717016752884,0.9287257019438445,1.0333518217312785,2.8422311391031507,0.185,Bayesian independent fixed Z

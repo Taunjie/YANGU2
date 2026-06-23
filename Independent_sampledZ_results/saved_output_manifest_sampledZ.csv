@@ -1,0 +1,19 @@
+Output_File,Exists
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\completed_primary_independent_sampledZ_best.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\scenario2_independent_sampledZ_results.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\scenario2_sampledZ_baseline_results.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\model_performance_comparison_validation_sampledZ.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\multi_seed_bayesian_validation_results.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\multi_seed_baseline_validation_results.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\multi_seed_validation_summary_all_methods.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\missingness_indicator_R.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\model_missingness_indicator_R_with_validation.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\validation_holdout_mask.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\best_model_mu_tau_Z_trace_draws.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\best_model_missing_posterior_summary.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\best_model_posterior_mean_Z_matrix.csv,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\graphics\scenario2_trace_plot_best_model.png,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\graphics\scenario2_rmse_comparison.png,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\graphics\scenario2_validation_coverage.png,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\graphics\scenario2_rhat_diagnostics.png,True
+F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_sampledZ_results\diagnostics\scenario2_sampledZ_diagnostics_report.txt,True

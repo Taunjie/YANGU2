@@ -1,0 +1,4 @@
+Validation_Seed,Method_Type,Model,Z,mu_prior_sd,tau_halfcauchy_scale,sigma_y_used,sigma_c_used,Rhat_mu,Rhat_tau,tau_accept_rate,Validation_RMSE,Validation_Bias,Validation_SE,Validation_Coverage
+2026,Comparison method,Naive mean,,,,,,,,,1.7498964502585075,0.0803020635253511,1.749943773677618,
+2026,Comparison method,MICE-style iterative regression,,,,,,,,,1.681353368294812,-0.0586376178746888,1.6821481129908267,
+2026,Comparison method,Gaussian Naive Bayes,,,,,,,,,1.7145470924005723,0.013584667223946972,1.71634778388837,

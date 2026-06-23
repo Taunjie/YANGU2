@@ -1,0 +1,2 @@
+Validation_Seed,Method_Type,Model,Z,mu_prior_sd,tau_halfcauchy_scale,sigma_y_used,sigma_c_used,Rhat_mu,Rhat_tau,tau_accept_rate,Validation_RMSE,Validation_Bias,Validation_SE,Validation_Coverage
+2026,Bayesian independent fixed Z,Ind_FixedZ0p9_muSD5_HC1p0_sigY1p7_sigC1p02,0.9,5.0,1.0,1.6975639410640113,1.0185383646384067,,,0.2,1.892276479333713,-0.13785324494974335,1.889289834589038,0.7710583153347732

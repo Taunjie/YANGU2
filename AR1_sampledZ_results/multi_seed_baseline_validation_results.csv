@@ -1,0 +1,10 @@
+Validation_Seed,Method_Type,Model,Z_prior,a_z,b_z,mu_prior_sd,tau_halfcauchy_scale,sigma_y_used,sigma_c_used,Z_mean,Rhat_mu,Rhat_tau,Rhat_phi,Rhat_Z_mean,tau_accept_rate,phi_accept_rate,z_accept_rate,Validation_RMSE,Validation_Bias,Validation_SE,Validation_Coverage
+2026,Comparison method,Naive mean,,,,,,,,,,,,,,,,1.7498964502585075,0.0803020635253511,1.749943773677618,
+2026,Comparison method,MICE-style iterative regression,,,,,,,,,,,,,,,,1.681353368294812,-0.0586376178746888,1.6821481129908267,
+2026,Comparison method,Gaussian NB baseline,,,,,,,,,,,,,,,,1.7145470924005723,0.013584667223946972,1.71634778388837,
+2027,Comparison method,Naive mean,,,,,,,,,,,,,,,,1.6322465396211707,0.08534586895817914,1.6317768878229515,
+2027,Comparison method,MICE-style iterative regression,,,,,,,,,,,,,,,,1.6175635140851128,0.042829078563109156,1.6187454608441538,
+2027,Comparison method,Gaussian NB baseline,,,,,,,,,,,,,,,,1.6241109427546816,-0.007636871435160246,1.6258497139591166,
+2028,Comparison method,Naive mean,,,,,,,,,,,,,,,,1.667090255231688,0.0683065387217133,1.6674920087826024,
+2028,Comparison method,MICE-style iterative regression,,,,,,,,,,,,,,,,1.6267074169462408,-0.04674277830300702,1.6277945385457235,
+2028,Comparison method,Gaussian NB baseline,,,,,,,,,,,,,,,,1.6561824355447192,-0.06381773254380381,1.6567425393146717,

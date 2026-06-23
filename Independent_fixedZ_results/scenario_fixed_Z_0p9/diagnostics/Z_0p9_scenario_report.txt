@@ -1,0 +1,36 @@
+Independent structure scenario for fixed Z = 0.9
+Best model for this Z: Ind_FixedZ0.9_muSD5_HC1.0
+Scenario directory: F:\gacheri's documents\research NCDs\BIBTEX\New folder\Simulated Datasets\Bayesian Learning Algorithm\Independent_fixedZ_results\scenario_fixed_Z_0p9
+
+Bayesian results for fixed Z_0p9
+================================
+                     Model   Z  mu_prior_sd  tau_halfcauchy_scale  mu_mean    mu_sd  mu_2.5%  mu_97.5%  tau_mean   tau_sd  tau_2.5%  tau_97.5%  Rhat_mu  Rhat_tau  tau_accept_rate  Validation_RMSE  Validation_Bias  Validation_SE  Validation_Coverage
+ Ind_FixedZ0.9_muSD5_HC1.0 0.9          5.0                   1.0 0.360187 0.034094 0.299932  0.453294  0.163298 0.051374  0.094172   0.279759 1.020343  1.392602         0.187750         1.773728         0.130083       1.770865             0.930886
+Ind_FixedZ0.9_muSD10_HC1.0 0.9         10.0                   1.0 0.360202 0.034094 0.299946  0.453311  0.163298 0.051374  0.094172   0.279759 1.020343  1.392602         0.187750         1.773729         0.130097       1.770865             0.930886
+ Ind_FixedZ0.9_muSD5_HC5.0 0.9          5.0                   5.0 0.371526 0.039503 0.285343  0.441144  0.188476 0.052752  0.105077   0.327960 1.122397  1.070845         0.193667         1.774554         0.140725       1.770878             0.930886
+Ind_FixedZ0.9_muSD10_HC5.0 0.9         10.0                   5.0 0.371541 0.039504 0.285355  0.441160  0.188476 0.052752  0.105077   0.327960 1.122403  1.070845         0.193667         1.774555         0.140741       1.770878             0.930886
+ Ind_FixedZ0.9_muSD5_HC2.5 0.9          5.0                   2.5 0.353341 0.040264 0.262258  0.418414  0.186239 0.045349  0.128927   0.299499 1.083192  1.273921         0.186500         1.775252         0.124120       1.772823             0.933045
+Ind_FixedZ0.9_muSD10_HC2.5 0.9         10.0                   2.5 0.353355 0.040265 0.262271  0.418430  0.186239 0.045349  0.128927   0.299499 1.083194  1.273921         0.186500         1.775253         0.124134       1.772823             0.933045
+
+Diagnostics for fixed Z_0p9
+===========================
+                     Model   Z  mu_prior_sd  tau_halfcauchy_scale  mu_mean    mu_sd  mu_2.5%  mu_97.5%  tau_mean   tau_sd  tau_2.5%  tau_97.5%  Rhat_mu  Rhat_tau  tau_accept_rate  Validation_RMSE  Validation_Bias  Validation_SE  Validation_Coverage
+ Ind_FixedZ0.9_muSD5_HC1.0 0.9          5.0                   1.0 0.360187 0.034094 0.299932  0.453294  0.163298 0.051374  0.094172   0.279759 1.020343  1.392602         0.187750         1.773728         0.130083       1.770865             0.930886
+Ind_FixedZ0.9_muSD10_HC1.0 0.9         10.0                   1.0 0.360202 0.034094 0.299946  0.453311  0.163298 0.051374  0.094172   0.279759 1.020343  1.392602         0.187750         1.773729         0.130097       1.770865             0.930886
+ Ind_FixedZ0.9_muSD5_HC5.0 0.9          5.0                   5.0 0.371526 0.039503 0.285343  0.441144  0.188476 0.052752  0.105077   0.327960 1.122397  1.070845         0.193667         1.774554         0.140725       1.770878             0.930886
+Ind_FixedZ0.9_muSD10_HC5.0 0.9         10.0                   5.0 0.371541 0.039504 0.285355  0.441160  0.188476 0.052752  0.105077   0.327960 1.122403  1.070845         0.193667         1.774555         0.140741       1.770878             0.930886
+ Ind_FixedZ0.9_muSD5_HC2.5 0.9          5.0                   2.5 0.353341 0.040264 0.262258  0.418414  0.186239 0.045349  0.128927   0.299499 1.083192  1.273921         0.186500         1.775252         0.124120       1.772823             0.933045
+Ind_FixedZ0.9_muSD10_HC2.5 0.9         10.0                   2.5 0.353355 0.040265 0.262271  0.418430  0.186239 0.045349  0.128927   0.299499 1.083194  1.273921         0.186500         1.775253         0.124134       1.772823             0.933045
+
+Comparison with baselines for fixed Z_0p9
+=========================================
+ Rank_by_RMSE       Method_Type                           Model   Z  mu_prior_sd  tau_halfcauchy_scale  Validation_RMSE  Validation_Bias  Validation_SE  Validation_Coverage  Rhat_mu  Rhat_tau  tau_accept_rate
+            1 Comparison method MICE-style iterative regression NaN          NaN                   NaN         1.681353        -0.058638       1.682148                  NaN      NaN       NaN              NaN
+            2 Comparison method            Gaussian NB baseline NaN          NaN                   NaN         1.714547         0.013585       1.716348                  NaN      NaN       NaN              NaN
+            3 Comparison method                      Naive mean NaN          NaN                   NaN         1.749896         0.080302       1.749944                  NaN      NaN       NaN              NaN
+            4  Bayesian fixed Z       Ind_FixedZ0.9_muSD5_HC1.0 0.9          5.0                   1.0         1.773728         0.130083       1.770865             0.930886 1.020343  1.392602         0.187750
+            5  Bayesian fixed Z      Ind_FixedZ0.9_muSD10_HC1.0 0.9         10.0                   1.0         1.773729         0.130097       1.770865             0.930886 1.020343  1.392602         0.187750
+            6  Bayesian fixed Z       Ind_FixedZ0.9_muSD5_HC5.0 0.9          5.0                   5.0         1.774554         0.140725       1.770878             0.930886 1.122397  1.070845         0.193667
+            7  Bayesian fixed Z      Ind_FixedZ0.9_muSD10_HC5.0 0.9         10.0                   5.0         1.774555         0.140741       1.770878             0.930886 1.122403  1.070845         0.193667
+            8  Bayesian fixed Z       Ind_FixedZ0.9_muSD5_HC2.5 0.9          5.0                   2.5         1.775252         0.124120       1.772823             0.933045 1.083192  1.273921         0.186500
+            9  Bayesian fixed Z      Ind_FixedZ0.9_muSD10_HC2.5 0.9         10.0                   2.5         1.775253         0.124134       1.772823             0.933045 1.083194  1.273921         0.186500

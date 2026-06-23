@@ -1,0 +1,5 @@
+Method_Type,Model,Z_prior,a_z,b_z,mu_prior_sd,tau_halfcauchy_scale,sigma_y_used,sigma_c_used,Validation_Splits,Mean_RMSE,SD_RMSE,Minimum_RMSE,Maximum_RMSE,Mean_Bias,Mean_Coverage
+Comparison method,MICE-style iterative regression,,,,,,,,1,1.681353368294812,,1.681353368294812,1.681353368294812,-0.0586376178746888,
+Comparison method,Gaussian NB baseline,,,,,,,,1,1.7145470924005723,,1.7145470924005723,1.7145470924005723,0.013584667223946972,
+Comparison method,Naive mean,,,,,,,,1,1.7498964502585075,,1.7498964502585075,1.7498964502585075,0.0803020635253511,
+Bayesian independent sampled Z,Ind_SampledZ_Beta1_1_muSD5_HC1p0_sigY1p7_sigC1p02,"Beta(1,1)",1.0,1.0,5.0,1.0,1.6975639410640113,1.0185383646384067,1,1.8765176758258095,,1.8765176758258095,1.8765176758258095,0.06899880659807803,0.796976241900648
